@@ -117,3 +117,16 @@ SUM adds together all the values in a particular column.
 MIN and MAX return the lowest and highest values in a particular column, respectively.
 AVG calculates the average of a group of selected values.
 */
+
+
+CREATE TABLE groceries (
+		id INTEGER PRIMARY KEY, 
+		item TEXT, 
+		quantity INTEGER, 
+		aisle INTEGER
+);
+
+INSERT INTO groceries VALUES (1, "Bananas", 4, 7);
+INSERT INTO groceries VALUES(2, "Peanut Butter", 1, 2);
+INSERT INTO groceries VALUES(3, "Dark Chocolate Bars", 2, 2);
+
